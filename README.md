@@ -46,7 +46,7 @@ SoftSell is designed to attract users looking to sell their unused software lice
 
 ## Live URL
 
-*https://soft-sell-three.vercel.app/  *
+_https://soft-sell-three.vercel.app/_
 
 ## GitHub Repository
 
