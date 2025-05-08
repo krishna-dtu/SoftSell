@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -183,7 +184,9 @@ const handleChatSubmit = (e) => {
       </div>
 
     </section>
+  <Analytics />
   </div>
   );
 }
+
   export default App;
