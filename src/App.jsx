@@ -80,44 +80,46 @@ function App() {
       <section className="w-screen py-12 bg-white dark:bg-gray-800 flex flex-col items-center">
         <h2 className="text-3xl font-bold mb-8 text-center w-full text-black dark:text-white">How It Works</h2>
         <div className="w-screen flex flex-col md:flex-row gap-8 px-8">
-          <div className="flex-1 bg-gray-100 rounded-lg p-6 text-center shadow w-full">
-            <div className="text-4xl mb-2">📤</div>
-            <h3 className="font-semibold mb-1">1. Upload License</h3>
-            <p className="text-gray-600">Submit your unused license details securely.</p>
+          <div className="flex-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-6 text-center shadow shadow-gray-200 dark:shadow-gray-700 w-full">
+            <div className="text-4xl mb-2 hover:scale-110 hover:rotate-12 hover:text-blue-600 transition-transform duration-300 cursor-pointer">📤</div>
+            <h3 className="font-semibold mb-1 text-gray-800 dark:text-gray-100">1. Upload License</h3>
+            <p className="text-gray-700 dark:text-gray-300">Submit your unused license details securely.</p>
           </div>
-          <div className="flex-1 bg-gray-100 rounded-lg p-6 text-center shadow w-full">
-            <div className="text-4xl mb-2">💰</div>
-            <h3 className="font-semibold mb-1">2. Get Valuation</h3>
-            <p className="text-gray-600">Receive an instant, fair market quote.</p>
+          <div className="flex-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-6 text-center shadow shadow-gray-200 dark:shadow-gray-700 w-full">
+            <div className="text-4xl mb-2 hover:scale-110 hover:rotate-12 hover:text-blue-600 transition-transform duration-300 cursor-pointer">💰</div>
+            <h3 className="font-semibold mb-1 text-gray-800 dark:text-gray-100">2. Get Valuation</h3>
+            <p className="text-gray-700 dark:text-gray-300">Receive an instant, fair market quote.</p>
           </div>
-          <div className="flex-1 bg-gray-100 rounded-lg p-6 text-center shadow w-full">
-            <div className="text-4xl mb-2">⚡</div>
-            <h3 className="font-semibold mb-1">3. Get Paid</h3>
-            <p className="text-gray-600">Accept the offer and get paid quickly.</p>
+          <div className="flex-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-6 text-center shadow shadow-gray-200 dark:shadow-gray-700 w-full">
+            <div className="text-4xl mb-2 hover:scale-110 hover:rotate-12 hover:text-blue-600 transition-transform duration-300 cursor-pointer">⚡</div>
+            <h3 className="font-semibold mb-1 text-gray-800 dark:text-gray-100">3. Get Paid</h3>
+            <p className="text-gray-700 dark:text-gray-300">Accept the offer and get paid quickly.</p>
           </div>
         </div>
+
       </section>
 
       {/* Why Choose Us */}
       <section className="w-screen py-12 bg-gray-100 flex flex-col items-center dark:bg-gray-800">
         <h2 className="text-3xl font-bold mb-8 text-center w-full text-black dark:text-white">Why Choose Us</h2>
         <div className="w-screen flex flex-col md:flex-row gap-8 px-8">
-          <div className="flex-1 bg-white rounded-lg p-6 text-center shadow w-full">
-            <div className="text-3xl mb-2">⏱️</div>
-            <h3 className="font-semibold mb-1">Fast Payments</h3>
-            <p className="text-gray-600">Get paid within 24 hours of acceptance.</p>
+          <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow shadow-gray-200 dark:shadow-gray-700 w-full">
+            <div className="text-3xl mb-2 hover:scale-110 hover:rotate-12 hover:text-green-600 transition-transform duration-300 cursor-pointer">⏱️</div>
+            <h3 className="font-semibold mb-1 text-gray-800 dark:text-gray-100">Fast Payments</h3>
+            <p className="text-gray-700 dark:text-gray-300">Get paid within 24 hours of acceptance.</p>
           </div>
-          <div className="flex-1 bg-white rounded-lg p-6 text-center shadow w-full">
-            <div className="text-3xl mb-2">🔒</div>
-            <h3 className="font-semibold mb-1">Secure Process</h3>
-            <p className="text-gray-600">Your data and transactions are always safe.</p>
+          <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow shadow-gray-200 dark:shadow-gray-700 w-full">
+            <div className="text-3xl mb-2 hover:scale-110 hover:rotate-12 hover:text-green-600 transition-transform duration-300 cursor-pointer">🔒</div>
+            <h3 className="font-semibold mb-1 text-gray-800 dark:text-gray-100">Secure Process</h3>
+            <p className="text-gray-700 dark:text-gray-300">Your data and transactions are always safe.</p>
           </div>
-          <div className="flex-1 bg-white rounded-lg p-6 text-center shadow w-full">
-            <div className="text-3xl mb-2">💬</div>
-            <h3 className="font-semibold mb-1">Expert Support</h3>
-            <p className="text-gray-600">Our team is here to help you at every step.</p>
+          <div className="flex-1 bg-white dark:bg-gray-800 rounded-lg p-6 text-center shadow shadow-gray-200 dark:shadow-gray-700 w-full">
+            <div className="text-3xl mb-2 hover:scale-110 hover:rotate-12 hover:text-green-600 transition-transform duration-300 cursor-pointer">💬</div>
+            <h3 className="font-semibold mb-1 text-gray-800 dark:text-gray-100">Expert Support</h3>
+            <p className="text-gray-700 dark:text-gray-300">Our team is here to help you at every step.</p>
           </div>
         </div>
+
       </section>
 
       {/* Testimonials */}
@@ -139,50 +141,106 @@ function App() {
       {/* Contact Form */}
       <section className="w-screen py-12 bg-gray-100 flex flex-col items-center dark:bg-gray-800">
         <h2 className="text-3xl font-bold mb-8 text-center w-full text-black dark:text-white">Contact Us</h2>
-        <form className="bg-white rounded-lg p-8 shadow w-full flex flex-col gap-4 px-8 md:w-2/3">
-          <input className="border rounded px-4 py-2 w-full" type="text" placeholder="Name" required />
-          <input className="border rounded px-4 py-2 w-full" type="email" placeholder="Email" required />
-          <input className="border rounded px-4 py-2 w-full" type="text" placeholder="Company" required />
-          <select className="border rounded px-4 py-2 w-full" required>
+        <form className="bg-white dark:bg-gray-800 rounded-lg p-8 shadow shadow-gray-200 dark:shadow-gray-700 w-full flex flex-col gap-4 px-8 md:w-2/3">
+          <input
+            className="border border-gray-300 dark:border-gray-600 rounded px-4 py-2 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 hover:border-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition"
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            className="border border-gray-300 dark:border-gray-600 rounded px-4 py-2 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 hover:border-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            className="border border-gray-300 dark:border-gray-600 rounded px-4 py-2 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 hover:border-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition"
+            type="text"
+            placeholder="Company"
+            required
+          />
+          <select
+            className="border border-gray-300 dark:border-gray-600 rounded px-4 py-2 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 hover:border-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition"
+            required
+          >
             <option value="">Select License Type</option>
             <option value="windows">Windows</option>
             <option value="office">Office</option>
             <option value="adobe">Adobe</option>
           </select>
-          <textarea className="border rounded px-4 py-2 w-full" placeholder="Message" required />
-          <button className="bg-blue-600 text-white px-6 py-2 rounded font-semibold hover:bg-blue-700 transition" type="submit">Send</button>
+          <textarea
+            className="border border-gray-300 dark:border-gray-600 rounded px-4 py2 w-full bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 hover:border-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition h-24 resize-y"
+            placeholder="Message"
+            required
+          />
+          <button
+            className="bg-blue-600 text-white px-6 py-2 rounded font-semibold hover:bg-blue-700 hover:shadow-xl transition duration-300 transform hover:scale-105"
+            type="submit"
+          >
+            Send
+          </button>
         </form>
-        <div className="fixed bottom-5 right-5">
+
+        <div className="fixed bottom-5 right-5 z-50 flex flex-col items-center">
+          {/* Cloud Prompt - Shows only when chat is closed */}
+          {!chatOpen && (
+            <div className="relative mb-2 flex flex-col items-center">
+              <div className="px-4 py-2 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 rounded-full shadow-lg text-sm font-medium animate-bounce pointer-events-none select-none">
+                Ask me anything!
+              </div>
+              <div className="w-3 h-3 bg-white dark:bg-gray-800 rotate-45 -mt-1"></div>
+            </div>
+          )}
           <button
             onClick={() => setChatOpen(!chatOpen)}
-            className="bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition flex items-center gap-2"
           >
-            💬 Chat
+            <span>💬 Chat</span>
           </button>
           {chatOpen && (
-            <div className="bg-white dark:bg-gray-800 w-80 h-96 rounded-lg shadow-lg p-4 mt-2 flex flex-col absolute bottom-10 right-0">
-              <h3 className="font-bold mb-2 text-black dark:text-white">SoftSell Assistant</h3>
-              <div className="flex-1 overflow-y-auto mb-2">
-                {messages.map((msg, index) => (
-                  <div key={index} className="mb-2">
-                    <p className="text-black dark:text-white"><strong>You:</strong> {msg.user}</p>
-                    <p className="text-gray-600 dark:text-gray-300"><strong>Bot:</strong> {msg.bot}</p>
-                  </div>
-                ))}
+            <div className="bg-white dark:bg-gray-800 w-80 h-96 rounded-lg shadow-2xl p-4 mt-2 flex flex-col absolute bottom-10 right-0 border border-gray-200 dark:border-gray-700">
+              <div className="flex justify-between items-center mb-3">
+                <h3 className="font-bold text-lg text-blue-600 dark:text-blue-400">SoftSell Assistant</h3>
+                <button
+                  onClick={() => setChatOpen(false)}
+                  className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+                >
+                  ✕
+                </button>
+              </div>
+              <div className="flex-1 overflow-y-auto mb-3 p-2 bg-gray-50 dark:bg-gray-900 rounded-md border border-gray-200 dark:border-gray-700">
+                {messages.length === 0 ? (
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">Ask me anything about selling software licenses!</p>
+                ) : (
+                  messages.map((msg, index) => (
+                    <div key={index} className="mb-3">
+                      <p className="text-black dark:text-white text-sm bg-blue-100 dark:bg-blue-900 rounded-lg p-2 inline-block max-w-[80%]">
+                        <strong>You:</strong> {msg.user}
+                      </p>
+                      <p className="text-black dark:text-white text-sm bg-gray-200 dark:bg-gray-700 rounded-lg p-2 inline-block max-w-[80%] mt-1">
+                        <strong>Bot:</strong> {msg.bot}
+                      </p>
+                    </div>
+                  ))
+                )}
               </div>
               <form onSubmit={handleChatSubmit} className="flex gap-2">
                 <input
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  className="flex-1 border rounded px-2 py-1 text-black dark:text-white dark:bg-gray-700"
+                  className="flex-1 border rounded-md px-3 py-2 text-black dark:text-white bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   placeholder="Ask a question..."
                 />
-                <button type="submit" className="bg-blue-600 text-white px-2 py-1 rounded">Send</button>
+                <button type="submit" className="bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 transition">
+                  ➤
+                </button>
               </form>
             </div>
           )}
         </div>
+
 
       </section>
       <Analytics />
